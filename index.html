@@ -1,7 +1,7 @@
-**************************************************************************************************************************************************************************
-                    This is a just file . Not for the site.
+************************************************************************************************************************************
+This is a just file . Not for the site.
 
-**************************************************************************************************************************************************************************
+************************************************************************************************************************************
 
 
 <!DOCTYPE html>
@@ -251,22 +251,153 @@
         </span>
 
     </div>
-    
 
 
 
 
 
 
+    <div>
+        <!-- this is the class -->
+
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <style>
+                .city {
+                    background-color: tomato;
+                    color: white;
+                    border: 2px solid black;
+                    margin: 20px;
+                    padding: 20px;
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <div class="city">
+                <h2>London</h2>
+                <p>London is the capital of England.</p>
+            </div>
+
+            <div class="city">
+                <h2>Paris</h2>
+                <p>Paris is the capital of France.</p>
+            </div>
+
+            <div class="city">
+                <h2>Tokyo</h2>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+
+        </body>
+
+        </html>
+    </div>
 
 
 
 
 
 
+    <div>
+        <!-- This is ID -->
+
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <style>
+                #myHeader {
+                    background-color: lightblue;
+                    color: black;
+                    padding: 40px;
+                    text-align: center;
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <h1 id="myHeader">My Header</h1>
+
+        </body>
+
+        </html>
 
 
 
+    </div>
+
+
+
+
+===============================================================================================================================
+
+What is Responsive Web Design?
+Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):
+
+
+
+
+
+===============================================================================================================================
+
+Setting The Viewport
+To create a responsive website, add the following <meta> tag to all your web pages:
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+===============================================================================================================================
+
+Responsive Images
+Responsive images are images that scale nicely to fit any browser size.
+
+Using the width Property
+If the CSS width property is set to 100%, the image will be responsive and scale up and down:
+
+
+<img src="img_girl.jpg" style="width:100%;">
+
+
+Notice that in the example above, the image can be scaled up to be larger than its original size. A better solution, in many cases, will be to use the max-width property instead.
+
+Using the max-width Property
+If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size:
+
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
+
+
+
+===============================================================================================================================
+
+Responsive Text Size
+The text size can be set with a "vw" unit, which means the "viewport width".
+
+That way the text size will follow the size of the browser window:
+
+<h1 style="font-size:10vw">Hello World</h1>
+
+Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+
+
+
+
+===============================================================================================================================
+
+HTML Responsive Web Design---------- a lot of things you have to know.
+
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query
+
+
+===============================================================================================================================
 
 
 </body>
